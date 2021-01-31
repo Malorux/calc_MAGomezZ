@@ -10,35 +10,35 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="siete" Content="7" HorizontalAlignment="Left" Height="40" Margin="44,238,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked" />
-        <Button x:Name="ocho" Content="8" HorizontalAlignment="Left" Margin="116,238,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name ="nueve" Content="9" HorizontalAlignment="Left" Margin="186,238,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked" />
-        <Button x:Name="cuatro" Content="4" HorizontalAlignment="Left" Height="40" Margin="46,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name="cinco" Content="5" HorizontalAlignment="Left" Height="40" Margin="116,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name="seis" Content="6" HorizontalAlignment="Left" Margin="186,298,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name="uno" Content="1" HorizontalAlignment="Left" Height="40" Margin="44,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked" />
-        <Button x:Name="dos" Content="2" HorizontalAlignment="Left" Margin="116,359,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name="tres" Content="3" HorizontalAlignment="Left" Height="40" Margin="186,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked"/>
-        <Button x:Name="cero" Content="0" HorizontalAlignment="Left" Height="40" Margin="44,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Clicked" />
-        <Button x:Name="punto" Content="." HorizontalAlignment="Left" Height="40" Margin="116,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Borrar_Click" />
-        <Button x:Name="igual" Content="=" HorizontalAlignment="Left" Height="40" Margin="259,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Igual_Click"/>
-        <Button x:Name="suma" Content="+" HorizontalAlignment="Left" Height="40" Margin="259,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Allcase"/>
-        <Button x:Name="resta" Content="-" HorizontalAlignment="Left" Height="40" Margin="259,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Allcase"/>
-        <Button x:Name="multi" Content="*" Height="40" Margin="259,238,41,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16" Click="Allcase"/>
+        <Button x:Name="siete" Content="7" HorizontalAlignment="Left" Height="40" Margin="44,238,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="ocho" Content="8" HorizontalAlignment="Left" Margin="116,238,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name ="nueve" Content="9" HorizontalAlignment="Left" Margin="186,238,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="cuatro" Content="4" HorizontalAlignment="Left" Height="40" Margin="46,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="cinco" Content="5" HorizontalAlignment="Left" Height="40" Margin="116,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="seis" Content="6" HorizontalAlignment="Left" Margin="186,298,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"/>
+        <Button x:Name="uno" Content="1" HorizontalAlignment="Left" Height="40" Margin="44,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="dos" Content="2" HorizontalAlignment="Left" Margin="116,359,0,0" VerticalAlignment="Top" Height="40" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="tres" Content="3" HorizontalAlignment="Left" Height="40" Margin="186,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="cero" Content="0" HorizontalAlignment="Left" Height="40" Margin="44,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="punto" Content="." HorizontalAlignment="Left" Height="40" Margin="116,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="igual" Content="=" HorizontalAlignment="Left" Height="40" Margin="259,419,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="suma" Content="+" HorizontalAlignment="Left" Height="40" Margin="259,359,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="resta" Content="-" HorizontalAlignment="Left" Height="40" Margin="259,298,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="multi" Content="*" Height="40" Margin="259,238,41,0" VerticalAlignment="Top" FontFamily="Arial" FontSize="16"/>
         <TextBox x:Name="result" HorizontalAlignment="Stretch" Height="37" Margin="0,56,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="242" TextAlignment="Right" FontFamily="Arial" FontSize="36" Visibility="Visible" IsReadOnly="True"  >
             <TextBox.Effect>
                 <DropShadowEffect/>
             </TextBox.Effect>
         </TextBox>
         <Label x:Name="funcion" Content="" HorizontalAlignment="Center" Height="28" Margin="0,23,0,0" VerticalAlignment="Top" Width="242" FontFamily="Arial" FontSize="14" FontWeight="Bold"   />
-        <Button x:Name="borrarAll" Content="CE" HorizontalAlignment="Left" Height="40" Margin="44,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Borrar_Click" />
-        <Button x:Name="borrarBox" Content="C" HorizontalAlignment="Left" Height="40" Margin="116,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Borrar_Click" />
-        <Button x:Name="borrarChar" Content="←" HorizontalAlignment="Left" Height="40" Margin="186,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Borrar_Click"/>
-        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Height="40" Margin="259,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="Allcase" />
-        <Button x:Name="factorial" Content="n!" HorizontalAlignment="Left" Height="40" Margin="44,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="ProblmMath" />
-        <Button x:Name="primo" Content="P" HorizontalAlignment="Left" Height="40" Margin="116,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="ProblmMath" />
-        <Button x:Name="fibonaci" Content="nf" HorizontalAlignment="Left" Height="40" Margin="186,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="ProblmMath" />
-        <Button x:Name="fibonaciS" Content="0112.." HorizontalAlignment="Left" Height="40" Margin="259,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" Click="ProblmMath" />
+        <Button x:Name="borrarAll" Content="CE" HorizontalAlignment="Left" Height="40" Margin="44,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="borrarBox" Content="C" HorizontalAlignment="Left" Height="40" Margin="116,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="borrarChar" Content="←" HorizontalAlignment="Left" Height="40" Margin="186,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press" />
+        <Button x:Name="div" Content="/" HorizontalAlignment="Left" Height="40" Margin="259,179,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="factorial" Content="n!" HorizontalAlignment="Left" Height="40" Margin="44,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="primo" Content="P" HorizontalAlignment="Left" Height="40" Margin="116,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="fibonaci" Content="nf" HorizontalAlignment="Left" Height="40" Margin="186,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
+        <Button x:Name="fibonaciS" Content="0112.." HorizontalAlignment="Left" Height="40" Margin="259,121,0,0" VerticalAlignment="Top" Width="50" FontFamily="Arial" FontSize="16" ClickMode="Press"  />
 
     </Grid>
 </Window>
