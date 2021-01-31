@@ -256,8 +256,7 @@ namespace Calculadora_Proyecto.controller
                 case ("-"):
                     {
                         try
-                        {
-                                                      
+                        {                        
                             part2 = Convert.ToDecimal(calP.getResult());
                             calP.setFuncionB(Convert.ToString(part2));
                             part1 -= part2; ver = Convert.ToBoolean(part1);
@@ -283,8 +282,6 @@ namespace Calculadora_Proyecto.controller
                             part1 += part2; ver = Convert.ToBoolean(part1);
                             calP.setResultA(Convert.ToString(part1));
                             error(ver, part1);
-                            calP.setResultA("");
-                            calP.setFuncionA("");
 
                         }
                         catch (Exception x)
@@ -305,8 +302,6 @@ namespace Calculadora_Proyecto.controller
                             part1 *= part2; ver = Convert.ToBoolean(part1);
                             calP.setResultA(Convert.ToString(part1));
                             error(ver, part1);
-                            calP.setResultA("");
-                            calP.setFuncionA("");
 
                         }
                         catch (Exception x)
@@ -328,8 +323,6 @@ namespace Calculadora_Proyecto.controller
                             part1 /= part2; ver = Convert.ToBoolean(part1);
                             calP.setResultA(Convert.ToString(part1));
                             error(ver, part1);
-                            calP.setResultA("");
-                            calP.setFuncionA("");
 
                         }
                         catch (Exception x)
